@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  padding-top: 4rem; /* Adjust this value based on the height of your navbar */
+}

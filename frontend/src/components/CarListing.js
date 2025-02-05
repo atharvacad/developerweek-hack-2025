@@ -1,9 +1,9 @@
-// src/components/ListingProperty.jsx
+// src/components/CarListing.jsx
 import React from 'react';
 import { useVisitor } from '../hooks/useVisitorData';
-import '../css/ListingProperty.css';
+import '../css/CarListing.css';
 
-function ListingProperty() {
+function CarListing() {
   const { data } = useVisitor();
 
   const handleSubmit = async (event) => {
@@ -13,15 +13,16 @@ function ListingProperty() {
     }
 
     const formData = new FormData(event.target);
-    const propertyData = {
+    const carData = {
       visitorID: data ? data.visitorId : null,
-      Property_Title: formData.get('title'),
-      Property_Type: formData.get('propertyType'),
-      Location: formData.get('location'),
+      Car_Title: formData.get('title'),
+      Make: formData.get('make'),
+      Model: formData.get('model'),
+      Year: formData.get('year'),
       Price: formData.get('price'),
-      Number_of_Bedrooms: formData.get('bedrooms'),
-      Number_of_Bathrooms: formData.get('bathrooms'),
-      Amenities: formData.get('amenities'),
+      Mileage: formData.get('mileage'),
+      Condition: formData.get('condition'),
+      Photos: formData.get('photos'),
       Contact_Name: formData.get('contactName'),
       Phone_Number: formData.get('phoneNumber'),
       Email: formData.get('email'),
@@ -33,7 +34,7 @@ function ListingProperty() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ type: 'property', data: propertyData }),
+        body: JSON.stringify({ type: 'car', data: carData }),
       });
 
       const result = await response.json();
@@ -53,26 +54,26 @@ function ListingProperty() {
   return (
     <div className="listing-container">
       <form className="listing-form" onSubmit={handleSubmit}>
-        <h2>List Your Property</h2>
+        <h2>List Your Car for Sale</h2>
         
         <div className="form-group">
           <label htmlFor="title">Title:</label>
-          <input type="text" id="title" name="title" placeholder="e.g., Spacious Apartment in City Center" required />
+          <input type="text" id="title" name="title" placeholder="e.g., 2020 Toyota Corolla" required />
         </div>
         
         <div className="form-group">
-          <label htmlFor="propertyType">Property Type:</label>
-          <select id="propertyType" name="propertyType" required>
-            <option value="">Select Property Type</option>
-            <option value="Apartment">Apartment</option>
-            <option value="Villa">Villa</option>
-            <option value="Commercial">Commercial</option>
-          </select>
+          <label htmlFor="make">Make:</label>
+          <input type="text" id="make" name="make" placeholder="e.g., Toyota" required />
         </div>
         
         <div className="form-group">
-          <label htmlFor="location">Location:</label>
-          <input type="text" id="location" name="location" placeholder="Enter location" required />
+          <label htmlFor="model">Model:</label>
+          <input type="text" id="model" name="model" placeholder="e.g., Corolla" required />
+        </div>
+        
+        <div className="form-group">
+          <label htmlFor="year">Year:</label>
+          <input type="number" id="year" name="year" placeholder="e.g., 2020" required />
         </div>
         
         <div className="form-group">
@@ -81,24 +82,19 @@ function ListingProperty() {
         </div>
         
         <div className="form-group">
-          <label htmlFor="bedrooms">Number of Bedrooms:</label>
-          <input type="number" id="bedrooms" name="bedrooms" placeholder="Enter number of bedrooms" required />
+          <label htmlFor="mileage">Mileage:</label>
+          <input type="number" id="mileage" name="mileage" placeholder="e.g., 50000" required />
         </div>
         
         <div className="form-group">
-          <label htmlFor="bathrooms">Number of Bathrooms:</label>
-          <input type="number" id="bathrooms" name="bathrooms" placeholder="Enter number of bathrooms" required />
+          <label htmlFor="condition">Condition:</label>
+          <input type="text" id="condition" name="condition" placeholder="e.g., Excellent, Good, Fair" required />
         </div>
         
         <div className="form-group">
-          <label htmlFor="amenities">Amenities:</label>
-          <input type="text" id="amenities" name="amenities" placeholder="e.g., Gym, Pool" required />
-        </div>
-        
-        {/* <div className="form-group">
           <label htmlFor="photos">Photos:</label>
           <input type="file" id="photos" name="photos" multiple required />
-        </div> */}
+        </div>
         
         <div className="form-group">
           <label htmlFor="contactName">Contact Name:</label>
@@ -115,10 +111,10 @@ function ListingProperty() {
           <input type="email" id="email" name="email" placeholder="you@example.com" required />
         </div>
         
-        <button type="submit">List Property</button>
+        <button type="submit">List Car</button>
       </form>
     </div>
   );
 }
 
-export default ListingProperty;
+export default CarListing;
