@@ -11,6 +11,7 @@ import ViewRentals from './components/ViewRentals';
 import ViewCars from './components/ViewCars';
 import ViewElectronics from './components/ViewElectronics';
 import AdminDataView from './components/admin/AdminDataView';
+import AdminVisitorInfo from './components/admin/AdminVisitorInfo';
 import './App.css'; // Import the global CSS file
 
 
@@ -33,6 +34,7 @@ const AppContent = () => {
           <Route path="/view-cars" element={<ViewCars />} />
           <Route path="/view-electronics" element={<ViewElectronics />} />
           <Route path="/admin-data-view" element={<AdminDataView />} />
+          <Route path="/visitorinfo" element={<AdminVisitorInfo />} /> {/* Updated here */}
         </Routes>
       </div>
     </div>

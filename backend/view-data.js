@@ -1,7 +1,8 @@
 // backend/view-data.js
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
-
+const fs = require('fs');
+const path = require('path');
 const router = express.Router();
 
 // Open the SQLite database
@@ -61,5 +62,26 @@ router.get('/view-data', (req, res) => {
     res.json(rows);
   });
 });
+
+// Endpoint to display visitor_info.json data
+router.get('/visitorinfo', (req, res) => {
+  const filePath = path.join(__dirname, 'data', 'visitor_info.json');
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading JSON file:', err.message);
+      return res.status(500).json({ error: 'Failed to read JSON file' });
+    }
+
+    try {
+      const jsonData = JSON.parse(data);
+      res.json(jsonData);
+    } catch (parseErr) {
+      console.error('Error parsing JSON file:', parseErr.message);
+      res.status(500).json({ error: 'Failed to parse JSON file' });
+    }
+  });
+});
+
 
 module.exports = router;

@@ -34,6 +34,9 @@ function Navbar() {
         <li className="navbar-item">
           <Link to="/admin-data-view">Admin Data View</Link>
         </li>
+        <li className="navbar-item">
+          <Link to="/visitorinfo">Visitor Info</Link>
+        </li>
       </ul>
     </nav>
   );
