@@ -1,53 +1,108 @@
-/* src/css/ListingProperty.css */
+/* Ensure the full page height is used and center content */
 .listing-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  /* Allow flexibility */
+  background-color: #eef2f3;
+  padding: 40px 20px;  /* Add padding for small screens */
+}
+
+/* Form Styling */
+.listing-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 650px;  /* Increase max width for better spacing */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Title */
+.listing-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;  /* Make title slightly larger */
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Improve Input Fields */
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* Improve Button Styling */
+button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+/* 📌 Make it Responsive */
+@media (max-width: 768px) {
   .listing-form {
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
+    max-width: 90%;  /* Make the form wider on small screens */
+    padding: 1.5rem;
   }
-  
-  .listing-form h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
+
   .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  .form-group textarea,
+  .form-group select {
+    padding: 12px;
   }
-  
-  button {
-    width: 100%;
-    padding: 0.75rem;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .listing-form {
+    max-width: 95%;
   }
-  
-  button:hover {
-    background-color: #0056b3;
+
+  .listing-form h2 {
+    font-size: 1.7rem;  /* Slightly reduce title size on smaller screens */
   }
+}

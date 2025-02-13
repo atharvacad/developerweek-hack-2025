@@ -1,0 +1,285 @@
+{
+  "m91QVPcHesce2c8mUr30": [
+    {
+      "requestId": "1738819573443.cK4cej",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": false,
+      "ip": "86.48.15.64",
+      "timestamp": 1738819573451,
+      "time": "2025-02-06T05:26:13Z",
+      "url": "http://localhost:3001/list-electronics",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-06T05:15:01.144Z",
+        "subscription": "2025-02-06T05:15:01.144Z"
+      }
+    },
+    {
+      "requestId": "1738818901136.gUnlwM",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738818901144,
+      "time": "2025-02-06T05:15:01Z",
+      "url": "http://localhost:3001/admin-data-view",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-03T23:05:25.748Z",
+        "subscription": "2025-02-03T23:05:25.748Z"
+      }
+    },
+    {
+      "requestId": "1738623925740.BFMOEJ",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738623925748,
+      "time": "2025-02-03T23:05:25Z",
+      "url": "http://localhost:3001/admin-data-view",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-03T22:06:42.535Z",
+        "subscription": "2025-02-03T22:06:42.535Z"
+      }
+    },
+    {
+      "requestId": "1738620402527.xnjHdZ",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738620402535,
+      "time": "2025-02-03T22:06:42Z",
+      "url": "http://localhost:3001/",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-03T19:06:47.297Z",
+        "subscription": "2025-02-03T19:06:47.297Z"
+      }
+    },
+    {
+      "requestId": "1738609607290.GTqyfP",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738609607297,
+      "time": "2025-02-03T19:06:47Z",
+      "url": "http://localhost:3001/",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-03T05:37:32.005Z",
+        "subscription": "2025-02-03T05:37:32.005Z"
+      }
+    },
+    {
+      "requestId": "1738561051997.feJKBZ",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": true,
+      "ip": "99.237.116.245",
+      "timestamp": 1738561052005,
+      "time": "2025-02-03T05:37:32Z",
+      "url": "http://localhost:3000/",
+      "tag": {},
+      "confidence": {
+        "score": 0.94,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      }
+    },
+    {
+      "requestId": "1738095923436.mcsxSw",
+      "browserDetails": {
+        "browserName": "Chrome",
+        "browserMajorVersion": "132",
+        "browserFullVersion": "132.0.0",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "incognito": true,
+      "ip": "99.237.116.245",
+      "timestamp": 1738095923443,
+      "time": "2025-01-28T20:25:23Z",
+      "url": "http://localhost:3000/",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": false,
+      "firstSeenAt": {
+        "global": "2025-01-28T20:25:23.443Z",
+        "subscription": "2025-01-28T20:25:23.443Z"
+      },
+      "lastSeenAt": {
+        "global": null,
+        "subscription": null
+      }
+    }
+  ],
+  "5E3plsCMuUM1u0rTh3ln": [
+    {
+      "requestId": "1738820009386.9hISgl",
+      "browserDetails": {
+        "browserName": "Safari",
+        "browserMajorVersion": "18",
+        "browserFullVersion": "18.2",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738820009395,
+      "time": "2025-02-06T05:33:29Z",
+      "url": "http://localhost:3001/list-property",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": true,
+      "firstSeenAt": {
+        "global": "2025-02-03T05:40:31.348Z",
+        "subscription": "2025-02-03T05:40:31.348Z"
+      },
+      "lastSeenAt": {
+        "global": "2025-02-03T05:40:31.348Z",
+        "subscription": "2025-02-03T05:40:31.348Z"
+      }
+    },
+    {
+      "requestId": "1738561231338.IIlGja",
+      "browserDetails": {
+        "browserName": "Safari",
+        "browserMajorVersion": "18",
+        "browserFullVersion": "18.2",
+        "os": "Mac OS X",
+        "osVersion": "10.15.7",
+        "device": "Other",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15"
+      },
+      "incognito": false,
+      "ip": "99.237.116.245",
+      "timestamp": 1738561231348,
+      "time": "2025-02-03T05:40:31Z",
+      "url": "http://localhost:3000/",
+      "tag": {},
+      "confidence": {
+        "score": 1,
+        "revision": "v1.1"
+      },
+      "visitorFound": false,
+      "firstSeenAt": {
+        "global": "2025-02-03T05:40:31.348Z",
+        "subscription": "2025-02-03T05:40:31.348Z"
+      },
+      "lastSeenAt": {
+        "global": null,
+        "subscription": null
+      }
+    }
+  ]
+}

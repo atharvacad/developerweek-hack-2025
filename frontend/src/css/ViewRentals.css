@@ -1,0 +1,26 @@
+/* src/css/ViewRentals.css */
+.rentals-container {
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .rentals-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .rental-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .rental-card h3 {
+    margin-top: 0;
+  }
+  
+  .rental-card p {
+    margin: 0.5rem 0;
+  }

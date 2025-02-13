@@ -1,0 +1,26 @@
+/* src/css/ViewElectronics.css */
+.electronics-container {
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .electronics-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .electronics-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .electronics-card h3 {
+    margin-top: 0;
+  }
+  
+  .electronics-card p {
+    margin: 0.5rem 0;
+  }
