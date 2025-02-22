@@ -102,5 +102,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: codeql-results-${{ matrix.language }}
-        path: security/codeql-results.sarif
+        path: ${{ github.workspace }}/.github/codeql/codeql-results.sarif
         retention-days: 7
