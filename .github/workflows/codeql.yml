@@ -99,7 +99,7 @@ jobs:
 
 
     - name: Upload SARIF results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: codeql-results-${{ matrix.language }}
         path: security/codeql-results.sarif
